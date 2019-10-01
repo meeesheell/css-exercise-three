@@ -1,10 +1,12 @@
 body {
-  background-color: #333;
+  background-color: #FFFFFF;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .container {
+  box-sizing: border-box;
+  background-color: #000000;
   margin: 0 auto;
   width: 420px;
 }
@@ -16,6 +18,56 @@ nav {
   width: 420px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .restaurant-list {
   padding-top: 50px;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 900;
+  line-height: 175%;
+}
+
+h3 {
+  font-size: 110%;
+  font-weight: normal;
+}
+
+.location {
+  box-sizing: border-box;
+  background-color: #DFDEDF;
+  border: 1px solid #959495;
+  float: left;
+  height: 100%;
+  margin: 0%;
+  padding: 10px 20px 5px 20px;
+  width: 100%;
+}
+
+.location:hover {
+  background-color: #B4B2B4;
+}
+
+.arrow {
+  box-sizing: border-box;
+}
+
+.content {
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  width: 90%;
+}
+
+.arrow {
+  box-sizing: border-box;
+  float: right;
+  height: 100%;
+  line-height: 5em;
+  text-align: right;
+  width: 10%;
 }
